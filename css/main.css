@@ -32,10 +32,6 @@ header {
   background-color: #e2e2e2;
 }
 
-.grid {
-  text-align: center;
-}
-
 h1 {
   margin: 0;
 }
@@ -52,6 +48,7 @@ nav li {
 li a {
   text-decoration: none;
   color: #0074d9;
+  text-align: center;
 }
 
 .current {
@@ -59,15 +56,16 @@ li a {
   color: #fff;
 }
 
-
 a:hover {
   background-color: #0074d9;
   color: #fff;
 }
 
-
 @media only screen and (min-width: 38em) {
 
-
   .logo {
+
     text-align: left;
+  }
+
+}
